@@ -139,7 +139,7 @@ public class MCscanX2Band {
                     int start = new Integer(theEles[1]);
                     int end = new Integer(theEles[2]);
                     String id = theEles[3];
-                    String strand = theEles[4];
+//                    String strand = theEles[4];
 
                     Bed oneBed = new Bed(id, chr, start, end);
                     theBedData.put(id, oneBed);
